@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: vedantmgoyal9/winget-releaser@main
+        if: false
         with:
           identifier: RustDesk.RustDesk
           version: "1.4.0"
